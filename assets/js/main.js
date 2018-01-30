@@ -28,6 +28,7 @@
 				}, 100);
 			});
 
+
 		// Touch?
 			if (skel.vars.mobile)
 				$body.addClass('is-touch');
