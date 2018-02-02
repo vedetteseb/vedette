@@ -1685,7 +1685,7 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		padding: 1em 0 2em 0;
 	}
 
     h0 {
@@ -2766,8 +2766,9 @@ ul1 li {
 					width: 100%;
 					max-height: 0;
 					line-height: 1.5;
-					margin-top: 0.35em;
+					margin-top: 2em;
 					opacity: 0;
+                    background-color: rgba(161,161,161,0.5);
                    
 				}
 
@@ -2842,12 +2843,12 @@ ul1 li {
 		@media screen and (max-width: 1280px) {
 
 			.tiles {
-				margin: -1.25em 0 0 -1.25em;
+				margin: auto;
 			}
 
 				.tiles article {
-					width: calc(25% - 1.25em);
-					margin: 1.25em 0 0 1.25em;
+					width: auto;
+					margin: auto;
 				}
 
 		}
@@ -2855,12 +2856,12 @@ ul1 li {
 		@media screen and (max-width: 980px) {
 
 			.tiles {
-				margin: -2.5em 0 0 -2.5em;
+				margin: auto;
 			}
 
 				.tiles article {
-					width: calc(50% - 2.5em);
-					margin: 2.5em 0 0 2.5em;
+					width: auto;
+					margin: auto;
 				}
 
 		}
@@ -2872,16 +2873,12 @@ ul1 li {
 			}
 
 				.tiles article {
-					width: calc(50% - 1.25em);
-					margin: 1.25em 0 0 1.25em;
+					width: auto;
+					margin: auto;
+                    
 				}
 
-					.tiles article:hover > .image {
-						-moz-transform: scale(1.0);
-						-webkit-transform: scale(1.0);
-						-ms-transform: scale(1.0);
-						transform: scale(1.0);
-					}
+			
 
 		}
 
@@ -2892,8 +2889,8 @@ ul1 li {
 			}
 
 				.tiles article {
-					width: 100%;
-					margin: 1.25em 0 0 0;
+					width: auto;
+					margin: auto;
 				}
 
 		}
